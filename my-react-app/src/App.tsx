@@ -4,6 +4,7 @@ import viteLogo from '/vite.svg'
 import ltt_logo from './assets/logo_ltt.svg'
 import Header from "./header";
 import './App.css'
+import Body from './body';
 function App() {
   const [count, setcount] = useState("a");
   return (
@@ -11,9 +12,9 @@ function App() {
       <div>
         <Header/>
       </div>
-      <body>
-        
-      </body>
+      <div>
+        <Body/>
+      </div>
     </>
   );
 }

@@ -1,0 +1,55 @@
+.body {
+  margin-top: 100px; /* chừa khoảng trống vì header fixed */
+  padding: 40px 20px;
+  font-family: Arial, sans-serif;
+}
+
+.hero {
+  text-align: center;
+  padding: 60px 20px;
+  background: linear-gradient(135deg, #d32f2f, #f9a825); /* đỏ - vàng */
+  color: white;
+  border-radius: 12px;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+}
+
+.hero h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+}
+
+.btn {
+  background: white;
+  color: #d32f2f;
+  border: none;
+  padding: 12px 24px;
+  font-size: 1rem;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+  font-weight: bold;
+}
+
+.btn:hover {
+  background: #fff176; /* vàng sáng */
+  color: #b71c1c;
+  transform: scale(1.05);
+}
+
+.content {
+  margin-top: 60px;
+  text-align: left;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.content h2 {
+  color: #d32f2f;
+  margin-bottom: 15px;
+}
